@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/sirf786/SirfPro3Project
   gitUsername: sirf786
   gitBranch: main
+services:
+- serviceName: project.sirfpro3.integrations:Test1
+  packages:
+  - name: SirfPro3Project
+    version: "1.0"
